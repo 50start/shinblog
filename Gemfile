@@ -67,10 +67,10 @@ gem 'twitter-bootstrap-rails'
 gem 'bootstrap-material-design', '0.1.4'
 gem 'jquery-rails'
 gem "font-awesome-rails"
-gem 'bootstrap-sass'
 gem 'cancancan'
 gem 'rails_admin'
 gem 'mini_magick'
 group :production do
   gem 'rails_12factor'
 end
+ruby '2.5.1'

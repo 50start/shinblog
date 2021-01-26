@@ -1,0 +1,26 @@
+
+  <div class="container">
+    <div class="row">
+      <h2><div class="text-center">MENU</h2>
+     <% @articles.each do |article| %>
+      <%= link_to article do %>
+       <div class="col-md-3 article-block">
+      　<% if article.image.attached? %>
+      　 <%= image_tag article.image, class: 'img-responsive'%>
+          <% end %>
+           <div>
+             
+        　 　 <P class="title"><%= article.title %>
+      　　    　<p style="text-align:right;">
+      　　   　<span style="position:absolut:right: 10px; bottom:5px; font-size: 12px;">
+    　　　　<%= article.created_at.strftime("%Y年%m月%d日") %>
+      　　　</span>
+     　　　 </P>
+     　  </p>
+      </div>
+    </div>
+  <% end %>
+  <% end %>
+ </div>
+</div>    　
+</div>

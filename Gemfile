@@ -67,6 +67,7 @@ gem 'twitter-bootstrap-rails'
 gem 'bootstrap-material-design', '0.1.4'
 gem 'jquery-rails'
 gem "font-awesome-rails"
+gem 'bootstrap-sass'
 gem 'cancancan'
 gem 'rails_admin'
 gem 'mini_magick'

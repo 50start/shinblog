@@ -296,6 +296,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap-material-design (= 0.1.4)
+  bootstrap-sass
   byebug
   cancancan
   capybara (>= 2.15)

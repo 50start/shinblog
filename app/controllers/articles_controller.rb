@@ -3,7 +3,7 @@ class ArticlesController < ApplicationController
   before_action :find_article, only: [:show, :edit, :update, :destroy]
   
   def index
-    @articles = Article.order(created_at: :desc)
+    @articles = Article.all
   end
 
   def show

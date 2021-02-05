@@ -70,9 +70,10 @@ gem "font-awesome-rails"
 gem 'bootstrap-sass'
 gem 'cancancan'
 gem 'rails_admin'
-gem 'mini_magick'
 group :production do
   gem 'rails_12factor'
 end
 ruby '2.5.1'
+gem 'mini_magick', '~> 4.8'
 gem "aws-sdk-s3", require: false
+
